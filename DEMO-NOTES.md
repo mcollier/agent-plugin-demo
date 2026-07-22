@@ -27,7 +27,9 @@ Noticed that many vendors were sharing their agents & skills via a marketplace, 
 
 The Marketplace is a curated collection of plugins.
 
-Copilot comes with two marketplaces already registered by default: **copilot-plugins** and **awesome-copilot**.
+Copilot comes with two marketplaces registered by default:
+- **copilot-plugins**
+- **awesome-copilot**.
 
 ---
 
@@ -84,6 +86,10 @@ Goes in your plugin directory - `plugins/demo/plugin.json`
     "mcpServers": "./.mcp.json"
 }
 ```
+
+---
+
+## :robot: Enough already . . . just show me the code
 
 ---
 
