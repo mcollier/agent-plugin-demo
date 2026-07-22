@@ -104,28 +104,20 @@ Goes in your plugin directory - `plugins/demo/plugin.json`
 ### Browse
 
 ``` shell
-/plugin marketplace browse agent-marketplace-dem
+/plugin marketplace browse agent-marketplace-demo
 ```
 
 ### Add a specific plugin
 
 ``` shell
-┃ /plugin install dotnet-ai@agent-marketplace-demo
+/plugin install dotnet-ai@agent-marketplace-demo
 ```
-
-### VS Code
-
-Once you've added the `mcollier/agent-plugin-demo`, search/filter for `@agentPlugins` in the Visual Studio Code extensions. This will show you all plugins available from the built-in and configured marketplaces.  Search for `mcollier` to narrow the results.
-
----
-
-## Publishing on GitHub
 
 ---
 
 ## Require marketplace and plugins in your repo
 
-Define in `.github/copilot/settings` or `.claude/settings.json`
+Define in `.github/copilot/settings.json` or `.claude/settings.json`
 
 ```json
 {
@@ -148,4 +140,8 @@ Define in `.github/copilot/settings` or `.claude/settings.json`
 
 ## Always available marketplace and plugin
 
-VS Code
+### VS Code Extension
+
+- Publish to GitHub repo
+- Add `owner/repo` (e.g., `mcollier/agent-plugin-demo`) to the VSCode marketplace settings.
+- Search/filter for `@agentPlugins` in the extensions. This will show you all plugins available from the built-in and configured marketplaces.  Search for plugin name (e.g., `demo`) to narrow the results.
