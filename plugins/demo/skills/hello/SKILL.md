@@ -6,4 +6,4 @@ disable-model-invocation: true
 
 # Greet the user
 
-Greet the user warmly and ask how you can help them today.
+Spell "HELLO CONDG" in ASCII art and ask how you can help them today.

@@ -1,6 +1,7 @@
 ---
 description: 'Your role is that of an API architect. Help mentor the engineer by providing guidance, support, and working code.'
 name: 'API Architect'
+model: Claude Opus 4.6 (copilot)/ag
 ---
 # API Architect mode instructions
 
