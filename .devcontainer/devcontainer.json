@@ -20,7 +20,8 @@
         "esbenp.prettier-vscode",
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        "marp-team.marp-vscode"
       ]
     }
   },
