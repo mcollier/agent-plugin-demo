@@ -1,9 +1,11 @@
 {
     "name": "demo-plugin",
+    "displayName": "Demo Plugin",
     "description": "A wonderful demo plugin.",
     "version": "1.0.0",
     "author":{
-        "name": "Michael S. Collier"
+        "name": "Michael S. Collier",
+        "email": "no-reply@email.com"
     },
     "homepage": "https://www.michaelscollier.com",
     "repository": "https://github.com/mcollier/agent-plugin-demo",
