@@ -4,6 +4,7 @@ A shared hub for engineers to discover, share, and contribute **AI agent coding 
 
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 [![GitHub Repository](https://img.shields.io/badge/Repository-GitHub-black?style=flat-square&logo=github)](https://github.com/mcollier/agent-plugin-demo)
+[![MegaLinter](https://github.com/mcollier/agent-plugin-demo/actions/workflows/mega-linter.yml/badge.svg)](https://github.com/mcollier/agent-plugin-demo/actions/workflows/mega-linter.yml)
 
 [Overview](#overview) • [Browse Plugins](#browse-available-plugins) • [Quick Start](#quick-start)
 
