@@ -1,0 +1,30 @@
+{
+  "name": "agent-plugin-demo",
+  "image": "mcr.microsoft.com/devcontainers/python:3-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/node:2": {
+      "version": "lts"
+    },
+    "ghcr.io/devcontainers/features/github-cli": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/copilot-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bierner.markdown-emoji",
+        "darkriszty.markdown-table-prettify",
+        "davidanson.vscode-markdownlint",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  },
+  "onCreateCommand": "",
+  "postCreateCommand": "npm ci",
+  "postStartCommand": ""
+}

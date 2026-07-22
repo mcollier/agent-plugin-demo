@@ -1,0 +1,12 @@
+{
+    "name": "demo-plugin",
+    "description": "A wonderful demo plugin.",
+    "version": "1.0.0",
+    "author":{
+        "name": "Michael S. Collier"
+    },
+    "homepage": "https://www.michaelscollier.com",
+    "repository": "https://github.com/mcollier/agent-plugin-demo",
+    "license": "MIT",
+    "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "agent-marketplace-demo",
+    "metadata": {
+        "description": "Curated plugins for our team",
+        "version": "1.0.0"
+    },
+    "owner": {
+        "name": "Michael S. Collier",
+        "email": "no-reply@email.com"
+    },
+    "plugins": [
+        {
+            "name": "demo-plugin",
+            "description": "A demo plugin for the people.",
+            "version": "1.0.0",
+            "source": "./plugins/demo"
+        }
+    ]
+}
