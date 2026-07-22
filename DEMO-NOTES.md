@@ -95,16 +95,22 @@ Goes in your plugin directory - `plugins/demo/plugin.json`
 
 ## Creating and testing locally
 
-### Adding to GitHub Copilot CLI
+### Adding the marketplace
 
 ``` shell
 /plugin marketplace add mcollier/agent-plugin-demo
 ```
 
-### Adding to Claude Code
+### Browse
 
 ``` shell
-/plugin marketplace add mcollier/agent-plugin-demo
+/plugin marketplace browse agent-marketplace-dem
+```
+
+### Add a specific plugin
+
+``` shell
+┃ /plugin install dotnet-ai@agent-marketplace-demo
 ```
 
 ### VS Code
